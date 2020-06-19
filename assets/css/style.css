@@ -1,5 +1,5 @@
-/*  ------------------------- 
-        
+/*  -------------------------
+
         Author: Matthew Lee (based on CSS by Vandré Leal Cândido)
         Year: 2014
 
@@ -148,7 +148,7 @@ img::-moz-selection{background:transparent;}
         background: -webkit-linear-gradient(rgba(20, 20, 20, 0.75), rgba(40, 40, 40, 0.9)), url('../img/back_profile-box.jpg') no-repeat top scroll;
         background: -webkit-linear-gradient(rgba(20, 20, 20, 0.75), rgba(20, 20, 20, 0.9)), url('../img/back_profile-box.jpg') no-repeat top scroll;
         background: linear-gradient(
-            rgba(20, 20, 20, 0.75), 
+            rgba(20, 20, 20, 0.75),
             rgba(20, 20, 20, 0.9)
             ), url('../img/back_profile-box.jpg') no-repeat top scroll;
         background-size: cover;
@@ -288,7 +288,7 @@ img::-moz-selection{background:transparent;}
 
     .sidebar-nav li a {
         padding: 0 15px;
-    }   
+    }
 
     .sidebar-nav li a:hover,
     .sidebar-nav li a:active,
@@ -383,7 +383,7 @@ img::-moz-selection{background:transparent;}
 #about {
     background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.85)), url('../img/back_about.jpg') no-repeat center center scroll;
     background: linear-gradient(
-        rgba(255, 255, 255, 0.9), 
+        rgba(255, 255, 255, 0.9),
         rgba(255, 255, 255, 0.85)
         ), url('../img/back_about.jpg') no-repeat center center scroll;
     background-size: cover;
@@ -518,8 +518,8 @@ img::-moz-selection{background:transparent;}
 #science figcaption .caption-footer i {margin-right: 6px;}
 
 #science figcaption h4, h6 {
-    letter-spacing: -0.05em;
-    text-transform: uppercase;
+    /* letter-spacing: -0.05em; */
+    /* text-transform: uppercase; */
 }
 
 #science figcaption h4 {color: #333;}
@@ -587,7 +587,7 @@ img::-moz-selection{background:transparent;}
 
 #science .effects .img img {
     margin: 0;
-    padding: 0;
+    padding: 20px 20px 20px;
     width: 100%;
     height: auto;
 }
@@ -684,6 +684,9 @@ img::-moz-selection{background:transparent;}
     border-bottom: 1px solid #DDD;
     box-shadow: 0 0 2px rgba(0,0,0,0.05);
     text-align: center;
+}
+#science .second-green {
+    color: #62B370;
 }
 
 
@@ -835,3 +838,6 @@ textarea.form-control {
         width: 80% !important;
     }
 }
+
+
+#facetell_thumbnail {  height: 100px;  width: auto; }
